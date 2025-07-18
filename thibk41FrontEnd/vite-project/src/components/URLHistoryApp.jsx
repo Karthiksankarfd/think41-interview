@@ -1,4 +1,4 @@
-'use client';
+
 
 import { useState } from 'react';
 
@@ -13,7 +13,7 @@ function Card({ title, children }) {
 
 function Button({ onClick, children, variant = 'primary' }) {
   const base =
-    'px-4 py-2 rounded-md text-white font-medium transition-colors';
+'px-4 py-2 rounded-md text-white font-medium transition-colors';
   const styles =
     variant === 'primary'
       ? `${base} bg-blue-600 hover:bg-blue-700`
