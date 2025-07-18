@@ -1,10 +1,12 @@
 import './App.css'
+import URLHistoryApp from './components/URLHistoryApp'
 import MainRoutes from './routes/MainRoutes'
 
 function App() {
   return (
     <div>
-        <MainRoutes/>
+        
+        <URLHistoryApp/>
     </div>
   )
 }
